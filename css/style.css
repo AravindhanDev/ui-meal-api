@@ -20,6 +20,11 @@ body {
 	background-color: var(--base2-color);
 }
 
+::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+}
+
 .btn-grad {
 	background: linear-gradient(to right, #4e54c8, #8f94fb);
 	color: #fff;
